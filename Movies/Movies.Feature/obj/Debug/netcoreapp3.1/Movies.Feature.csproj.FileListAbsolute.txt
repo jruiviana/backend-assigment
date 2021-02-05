@@ -1,0 +1,12 @@
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.csprojAssemblyReference.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.AssemblyInfoInputs.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.AssemblyInfo.cs
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.csproj.CoreCompileInputs.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\bin\Debug\netcoreapp3.1\Movies.Feature.deps.json
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\bin\Debug\netcoreapp3.1\Movies.Feature.dll
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\bin\Debug\netcoreapp3.1\Movies.Feature.pdb
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\bin\Debug\netcoreapp3.1\Movies.Core.dll
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\bin\Debug\netcoreapp3.1\Movies.Core.pdb
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.csproj.CopyComplete
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.dll
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Feature\obj\Debug\netcoreapp3.1\Movies.Feature.pdb

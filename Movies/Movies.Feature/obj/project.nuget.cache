@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a6UNwnfz6uE7es8weUHijvl5DRDlpijbSEWG79X7w85wV3f+DROwtN9Mjw5uOtLxdQBEM5oUp0hJXC5GktWqqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taavijo6\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\taavijo6\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
