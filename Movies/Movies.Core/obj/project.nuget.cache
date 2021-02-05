@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YqMDnrmW++kEC9oYE5T2wj32jaIRnoL/baJvgpjkH1CLDz33dO7NmlPzgR1zOI9Z0Me6roLuP3M6Mlqq/xWhAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taavijo6\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

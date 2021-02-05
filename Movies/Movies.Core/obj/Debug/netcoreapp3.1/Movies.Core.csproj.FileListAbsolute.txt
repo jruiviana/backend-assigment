@@ -1,0 +1,9 @@
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\bin\Debug\netcoreapp3.1\Movies.Core.deps.json
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\bin\Debug\netcoreapp3.1\Movies.Core.dll
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\bin\Debug\netcoreapp3.1\Movies.Core.pdb
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.csprojAssemblyReference.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.AssemblyInfoInputs.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.AssemblyInfo.cs
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.csproj.CoreCompileInputs.cache
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.dll
+C:\Users\taavijo6\Projects\assigment\backend-assigment\Movies\Movies.Core\obj\Debug\netcoreapp3.1\Movies.Core.pdb
