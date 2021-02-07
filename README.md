@@ -26,7 +26,7 @@ O would like to use OData for the endpoint to give other option of filter. We al
 https://www.odata.org/
 
 
-## Extimation
+## Estimation
 
 For this task my estimation was 4 hour.
 
