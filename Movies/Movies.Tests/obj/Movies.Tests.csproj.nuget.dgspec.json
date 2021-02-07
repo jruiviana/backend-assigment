@@ -4,14 +4,104 @@
     "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj": {
+    "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\Movies.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj",
-        "projectName": "Movies.Tests",
-        "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\Movies.API.csproj",
+        "projectName": "Movies.API",
+        "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\Movies.API.csproj",
         "packagesPath": "C:\\Users\\taavijo6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\obj\\",
+        "outputPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\taavijo6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj": {
+                "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj"
+              },
+              "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj": {
+                "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj",
+        "projectName": "Movies.Core",
+        "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj",
+        "packagesPath": "C:\\Users\\taavijo6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taavijo6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +130,168 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj",
+        "projectName": "Movies.Feature",
+        "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj",
+        "packagesPath": "C:\\Users\\taavijo6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\taavijo6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj": {
+                "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Core\\Movies.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj",
+        "projectName": "Movies.Tests",
+        "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\Movies.Tests.csproj",
+        "packagesPath": "C:\\Users\\taavijo6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\taavijo6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\Movies.API.csproj": {
+                "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.API\\Movies.API.csproj"
+              },
+              "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj": {
+                "projectPath": "C:\\Users\\taavijo6\\Projects\\assigment\\backend-assigment\\Movies\\Movies.Feature\\Movies.Feature.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -72,6 +321,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
