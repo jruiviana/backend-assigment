@@ -6,12 +6,7 @@ namespace Movies.Feature.Queries
 {
     public class GetMovieFromSourceQuery : IRequest<SourceMovieDto>
     {
-        public GetMovieFromSourceQuery(string movieTitle)
-        {
-            MovieTitle = movieTitle;
-        }
-
-        [Required]
-        public string MovieTitle { get; }
+        [Required(ErrorMessage = "Movie title is required!")]
+        public string Title { get; set; }
     }
 }

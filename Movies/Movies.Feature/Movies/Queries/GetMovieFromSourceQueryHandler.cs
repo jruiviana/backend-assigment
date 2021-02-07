@@ -17,7 +17,7 @@ namespace Movies.Feature.Queries
 
         public async Task<SourceMovieDto> Handle(GetMovieFromSourceQuery request, CancellationToken cancellationToken)
         {
-            return await _sourceMovieService.GetMovieAsync(request.MovieTitle);
+            return await _sourceMovieService.GetMovieAsync(request.Title);
         }
     }
 }
